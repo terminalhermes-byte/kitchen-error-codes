@@ -1,0 +1,137 @@
+[
+  {
+    "manufacturer": "Hobart",
+    "model": "Legacy HL600 Mixer",
+    "code": "OL1",
+    "title": "Motor Overload",
+    "cause": "The motor is drawing too much current, likely due to a heavy batch or stiff dough.",
+    "fix": "1. Turn the mixer OFF.\n2. Reduce the batch size.\n3. Wait 2 minutes for the motor to cool.\n4. Restart on a lower speed.",
+    "parts_link": "https://www.partstown.com/hobart/parts"
+  },
+  {
+    "manufacturer": "Hobart",
+    "model": "Legacy HL600 Mixer",
+    "code": "OL2",
+    "title": "Drive Motor Overload",
+    "cause": "Severe overload or stalled agitator.",
+    "fix": "1. Unplug the mixer.\n2. Remove the obstruction (dough hook stuck?).\n3. Allow 5 minutes to cool.\n4. Plug in and restart.",
+    "parts_link": "https://www.partstown.com/hobart/parts"
+  },
+  {
+    "manufacturer": "Hobart",
+    "model": "Legacy HL600 Mixer",
+    "code": "E1",
+    "title": "Communication Error",
+    "cause": "Loss of communication between the mixer controls and the motor drive.",
+    "fix": "1. Unplug the unit for 30 seconds to reset the VFD.\n2. Check the interlock guard wire.\n3. If it persists, replace the Control Board.",
+    "parts_link": "https://www.partstown.com/hobart/parts"
+  },
+  {
+    "manufacturer": "Rational",
+    "model": "SelfCookingCenter (SCC)",
+    "code": "10",
+    "title": "SC Pump Error",
+    "cause": "The Steam Generator (SC) pump is defective or clogged with scale.",
+    "fix": "1. Run the 'CareControl' cleaning cycle.\n2. Check if the pump impeller is blocked by debris.\n3. Measure voltage to the pump (230V).\n4. Replace the SC pump.",
+    "parts_link": "https://www.partstown.com/rational/parts"
+  },
+  {
+    "manufacturer": "Rational",
+    "model": "SelfCookingCenter (SCC)",
+    "code": "12",
+    "title": "Gas Valve Error",
+    "cause": "The gas valve is not opening or the ignition box is failing.",
+    "fix": "1. Check gas supply pressure.\n2. Reset the unit.\n3. Check the ignition electrode for sparks.\n4. Replace the gas valve if no click is heard.",
+    "parts_link": "https://www.partstown.com/rational/parts"
+  },
+  {
+    "manufacturer": "Rational",
+    "model": "SelfCookingCenter (SCC)",
+    "code": "25",
+    "title": "CleanJet Pump Failure",
+    "cause": "The cleaning pump is not pumping water/chemical properly.",
+    "fix": "1. Check water pressure.\n2. Ensure the cleaning tab drawer is closed properly.\n3. Check for kinks in the blue hose.\n4. Replace CleanJet pump.",
+    "parts_link": "https://www.partstown.com/rational/parts"
+  },
+  {
+    "manufacturer": "Vulcan",
+    "model": "PowerFry VK Series",
+    "code": "IGN LOCKOUT",
+    "title": "Ignition Lockout",
+    "cause": "The fryer failed to light after 3 attempts.",
+    "fix": "1. Turn the power switch OFF.\n2. Check if the gas valve is ON.\n3. Wait 30 seconds.\n4. Turn power ON to reset ignition module.",
+    "parts_link": "https://www.partstown.com/vulcan/parts"
+  },
+  {
+    "manufacturer": "Vulcan",
+    "model": "PowerFry VK Series",
+    "code": "OPEN PROBE",
+    "title": "Open Temp Probe",
+    "cause": "The temperature sensor is reading an open circuit (broken wire).",
+    "fix": "1. Check the probe connection at the control board.\n2. Measure resistance of the probe (should be ~1000 ohms at room temp).\n3. If infinite ohms, replace the probe.",
+    "parts_link": "https://www.partstown.com/vulcan/parts"
+  },
+  {
+    "manufacturer": "Vulcan",
+    "model": "PowerFry VK Series",
+    "code": "HI LIMIT",
+    "title": "High Limit Tripped",
+    "cause": "Oil temperature exceeded 450°F (232°C). Safety shutdown.",
+    "fix": "1. Allow oil to cool below 400°F.\n2. Press the red reset button inside the cabinet (behind the door).\n3. If it trips again immediately, replace the High Limit thermostat.",
+    "parts_link": "https://www.partstown.com/vulcan/parts"
+  },
+  {
+    "manufacturer": "Manitowoc",
+    "model": "Indigo Ice Machine",
+    "code": "E02",
+    "title": "Long Freeze Cycle",
+    "cause": "The ice maker took too long to make a batch of ice (over 35-45 mins).",
+    "fix": "1. Clean the condenser coil (dust/grease).\n2. Check water inlet temperature (too hot?).\n3. Check for low refrigerant charge (bubbles in sight glass).",
+    "parts_link": "https://www.partstown.com/manitowoc/parts"
+  },
+  {
+    "manufacturer": "Pitco",
+    "model": "Solstice Fryer",
+    "code": "DRAIN OPEN",
+    "title": "Drain Valve Open",
+    "cause": "Safety switch detects the drain valve is not fully closed.",
+    "fix": "1. Close the drain valve handle completely.\n2. Check if the microswitch behind the valve is bent.\n3. If valve is closed but error persists, replace the switch.",
+    "parts_link": "https://www.partstown.com/pitco/parts"
+  },
+  {
+    "manufacturer": "Pitco",
+    "model": "Solstice Fryer",
+    "code": "PROBE FAILURE",
+    "title": "Temp Probe Error",
+    "cause": "Temperature probe reading out of range (Short or Open).",
+    "fix": "1. Check probe wiring at the I-12 computer.\n2. Ohms check: Should be ~1000 ohms at 70°F.\n3. Replace probe if faulty.",
+    "parts_link": "https://www.partstown.com/pitco/parts"
+  },
+  {
+    "manufacturer": "Traulsen",
+    "model": "G-Series Fridge",
+    "code": "OP",
+    "title": "Open Cabinet Sensor",
+    "cause": "Cabinet air sensor is disconnected or failed.",
+    "fix": "1. Check sensor connection on the control board.\n2. Replace the Cabinet Sensor (Blue Wire).",
+    "parts_link": "https://www.partstown.com/traulsen/parts"
+  },
+  {
+    "manufacturer": "Traulsen",
+    "model": "G-Series Fridge",
+    "code": "SH",
+    "title": "Short Cabinet Sensor",
+    "cause": "Cabinet air sensor has shorted out.",
+    "fix": "1. Inspect sensor wire for pinched insulation.\n2. Replace the Cabinet Sensor.",
+    "parts_link": "https://www.partstown.com/traulsen/parts"
+  },
+  {
+    "manufacturer": "True",
+    "model": "GDM Series",
+    "code": "H1",
+    "title": "High Temp Alarm",
+    "cause": "Cabinet temp is above safe limit (>40°F for 1 hour).",
+    "fix": "1. Check if door was left open.\n2. Clean the condenser coil.\n3. Check evaporator fan operation.",
+    "parts_link": "https://www.partstown.com/true-refrigeration/parts"
+  }
+]
