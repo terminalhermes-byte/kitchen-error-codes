@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Config
 DATA_FILE = "errors.json"
-OUTPUT_DIR = "public"
+OUTPUT_DIR = "docs"
 TEMPLATE = """
 <!DOCTYPE html>
 <html lang="en">
