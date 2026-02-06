@@ -241,5 +241,77 @@
     "cause": "Freezing cylinder temperature probe failure.",
     "fix": "1. Check probe wiring.\n2. Replace the barrel sensor.",
     "parts_link": "https://www.partstown.com/taylor/parts"
+  },
+  {
+    "manufacturer": "Scotsman",
+    "model": "Prodigy Ice Machine",
+    "code": "1",
+    "title": "Maximum Freeze Time",
+    "cause": "Freeze cycle exceeded 45-60 minutes. Ice not forming.",
+    "fix": "1. Check for water inlet valve leak.\n2. Clean the condenser coil.\n3. Check refrigerant charge.",
+    "parts_link": "https://www.partstown.com/scotsman/parts"
+  },
+  {
+    "manufacturer": "Scotsman",
+    "model": "Prodigy Ice Machine",
+    "code": "2",
+    "title": "Maximum Harvest Time",
+    "cause": "Ice formed but did not drop within 3.5 minutes.",
+    "fix": "1. Check harvest assist solenoid operation.\n2. Inspect evaporator plate for scale/calcium.\n3. Verify curtain switch sensitivity.",
+    "parts_link": "https://www.partstown.com/scotsman/parts"
+  },
+  {
+    "manufacturer": "Scotsman",
+    "model": "Prodigy Ice Machine",
+    "code": "8",
+    "title": "Short Freeze Error",
+    "cause": "Freeze cycle was too short (under 5 mins). Likely sensor issue.",
+    "fix": "1. Check ice thickness probe for shorting/bridging.\n2. Clean the probe surface.\n3. Verify water pump is circulating.",
+    "parts_link": "https://www.partstown.com/scotsman/parts"
+  },
+  {
+    "manufacturer": "Blodgett",
+    "model": "Zephaire Convection Oven",
+    "code": "HI-LIMIT",
+    "title": "High Limit Safety Trip",
+    "cause": "Oven cavity overheated (fan failure or thermostat stuck).",
+    "fix": "1. Locate red reset button on the back of the motor.\n2. Press to reset.\n3. If motor hums but doesn't spin, replace start capacitor.",
+    "parts_link": "https://www.partstown.com/blodgett/parts"
+  },
+  {
+    "manufacturer": "Blodgett",
+    "model": "Zephaire Convection Oven",
+    "code": "FAN DELAY",
+    "title": "Blower Fan Delay",
+    "cause": "Blower not reaching speed or door switch open.",
+    "fix": "1. Check door switch alignment.\n2. Inspect blower wheel for rubbing/obstruction.\n3. Check blower motor windings.",
+    "parts_link": "https://www.partstown.com/blodgett/parts"
+  },
+  {
+    "manufacturer": "Alto-Shaam",
+    "model": "Cook & Hold Oven",
+    "code": "E-60",
+    "title": "Probe Error (Open)",
+    "cause": "Temperature probe circuit is open.",
+    "fix": "1. Check probe connection at the control block.\n2. Inspect probe tip for damage.\n3. Replace probe if infinite resistance.",
+    "parts_link": "https://www.partstown.com/alto-shaam/parts"
+  },
+  {
+    "manufacturer": "Alto-Shaam",
+    "model": "Cook & Hold Oven",
+    "code": "E-70",
+    "title": "Probe Error (Short)",
+    "cause": "Temperature probe circuit is shorted.",
+    "fix": "1. Check for pinched wires in the door hinge.\n2. Replace probe if resistance is near 0 ohms.",
+    "parts_link": "https://www.partstown.com/alto-shaam/parts"
+  },
+  {
+    "manufacturer": "Jackson",
+    "model": "Conserver Dishwasher",
+    "code": "FILL ERROR",
+    "title": "Fill Time Exceeded",
+    "cause": "Tank did not fill within the timeout period.",
+    "fix": "1. Check water supply valve is fully open.\n2. Clean inlet strainer screen.\n3. Verify float switch is not stuck down.",
+    "parts_link": "https://www.partstown.com/jackson-msc/parts"
   }
 ]
