@@ -54,6 +54,24 @@
     "parts_link": "https://www.partstown.com/rational/parts"
   },
   {
+    "manufacturer": "Rational",
+    "model": "SelfCookingCenter (SCC)",
+    "code": "34",
+    "title": "Bus Signal Error",
+    "cause": "Communication error between the PCB and the motor/ignition module.",
+    "fix": "1. Check the ribbon cable connections on the main PCB.\n2. Inspect for moisture/corrosion on the board.\n3. Replace the bus cable.",
+    "parts_link": "https://www.partstown.com/rational/parts"
+  },
+  {
+    "manufacturer": "Rational",
+    "model": "SelfCookingCenter (SCC)",
+    "code": "40",
+    "title": "Care Pump Error",
+    "cause": "The Care (descaling) pump is not running or is blocked.",
+    "fix": "1. Check the Care pump for blockages (scale chunks).\n2. Verify the level electrode is clean.\n3. Replace the Care pump.",
+    "parts_link": "https://www.partstown.com/rational/parts"
+  },
+  {
     "manufacturer": "Vulcan",
     "model": "PowerFry VK Series",
     "code": "IGN LOCKOUT",
@@ -88,6 +106,60 @@
     "cause": "The ice maker took too long to make a batch of ice (over 35-45 mins).",
     "fix": "1. Clean the condenser coil (dust/grease).\n2. Check water inlet temperature (too hot?).\n3. Check for low refrigerant charge (bubbles in sight glass).",
     "parts_link": "https://www.partstown.com/manitowoc/parts"
+  },
+  {
+    "manufacturer": "Manitowoc",
+    "model": "Indigo Ice Machine",
+    "code": "E01",
+    "title": "Long Harvest Cycle",
+    "cause": "Ice is not dropping from the evaporator plate quickly enough.",
+    "fix": "1. Check if the ice thickness probe is dirty.\n2. Verify the curtain switch operation.\n3. Check for scale buildup on the evaporator plate.",
+    "parts_link": "https://www.partstown.com/manitowoc/parts"
+  },
+  {
+    "manufacturer": "Hoshizaki",
+    "model": "KM Series Ice Machine",
+    "code": "1 Beep",
+    "title": "High Temperature Safety",
+    "cause": "Discharge temperature exceeded 127°F.",
+    "fix": "1. Check for dirty condenser filter.\n2. Verify condenser fan operation.\n3. Reset by pressing the 'Reset' button on the control board.",
+    "parts_link": "https://www.partstown.com/hoshizaki/parts"
+  },
+  {
+    "manufacturer": "Hoshizaki",
+    "model": "KM Series Ice Machine",
+    "code": "3 Beeps",
+    "title": "Long Freeze Safety",
+    "cause": "Freeze cycle exceeded timer settings (possible water leak or low charge).",
+    "fix": "1. Check inlet water valve for leaking.\n2. Check float switch alignment.\n3. Verify hot gas valve is not leaking by.",
+    "parts_link": "https://www.partstown.com/hoshizaki/parts"
+  },
+  {
+    "manufacturer": "TurboChef",
+    "model": "Sota / i3 / i5",
+    "code": "F1",
+    "title": "Blower Motor Failure",
+    "cause": "The main convection blower is not spinning or the sensor is bad.",
+    "fix": "1. Check for obstructions in the fan.\n2. Spin the fan manually (unplugged!) to check bearings.\n3. Replace Blower Motor Controller.",
+    "parts_link": "https://www.partstown.com/turbochef/parts"
+  },
+  {
+    "manufacturer": "TurboChef",
+    "model": "Sota / i3 / i5",
+    "code": "F4",
+    "title": "Door Switch Error",
+    "cause": "The door is registered as open during a cook cycle.",
+    "fix": "1. Adjust the door latch hinges.\n2. Check the microswitches on the door mechanism.\n3. Replace door switches.",
+    "parts_link": "https://www.partstown.com/turbochef/parts"
+  },
+  {
+    "manufacturer": "TurboChef",
+    "model": "Sota / i3 / i5",
+    "code": "F6",
+    "title": "EC Temp High",
+    "cause": "Electrical Compartment (EC) is overheating (>158°F).",
+    "fix": "1. Clean the rear cooling fan filter.\n2. Ensure the oven has 2-inch clearance in the back.\n3. Check if the cooling fan is running.",
+    "parts_link": "https://www.partstown.com/turbochef/parts"
   },
   {
     "manufacturer": "Pitco",
@@ -133,5 +205,41 @@
     "cause": "Cabinet temp is above safe limit (>40°F for 1 hour).",
     "fix": "1. Check if door was left open.\n2. Clean the condenser coil.\n3. Check evaporator fan operation.",
     "parts_link": "https://www.partstown.com/true-refrigeration/parts"
+  },
+  {
+    "manufacturer": "Bunn",
+    "model": "Ultra-2 Slush Machine",
+    "code": "Torque Error",
+    "title": "Auger Torque Error",
+    "cause": "The slush is too thick/frozen, overloading the motor.",
+    "fix": "1. Turn machine OFF for 30 mins to thaw.\n2. Adjust the thickness setting screw (counter-clockwise).\n3. Check syrup-to-water ratio (too much water freezes hard).",
+    "parts_link": "https://www.partstown.com/bunn/parts"
+  },
+  {
+    "manufacturer": "Bunn",
+    "model": "C-Series Coffee Maker",
+    "code": "Temp Sensor",
+    "title": "Temperature Sensor Bad",
+    "cause": "Tank temperature sensor reading is invalid.",
+    "fix": "1. Descale the tank (scale buildup on sensor).\n2. Check sensor wire continuity.\n3. Replace temp sensor.",
+    "parts_link": "https://www.partstown.com/bunn/parts"
+  },
+  {
+    "manufacturer": "Taylor",
+    "model": "C602 Soft Serve",
+    "code": "HPCO",
+    "title": "High Pressure Cut Out",
+    "cause": "Compressor discharge pressure too high (overheating).",
+    "fix": "1. Clean the air filter screens.\n2. Ensure proper airflow clearance.\n3. Reset the High Pressure switch manually.",
+    "parts_link": "https://www.partstown.com/taylor/parts"
+  },
+  {
+    "manufacturer": "Taylor",
+    "model": "C602 Soft Serve",
+    "code": "Barrel Temp",
+    "title": "Barrel Temp Sensor",
+    "cause": "Freezing cylinder temperature probe failure.",
+    "fix": "1. Check probe wiring.\n2. Replace the barrel sensor.",
+    "parts_link": "https://www.partstown.com/taylor/parts"
   }
 ]
